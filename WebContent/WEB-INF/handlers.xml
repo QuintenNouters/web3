@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+
+<!-- BASIC HANDLERS -->
+ <entry key="showHomePage">main.controller.handlers.HomePageHandler</entry>
+ <entry key="doChangeColor">main.controller.handlers.ChangeColorHandler</entry>
+
+<!-- PERSON handlers -->
+ <entry key="showUserOverviewPage">main.controller.handlers.person.UserOverviewPageHandler</entry>
+ <entry key="showSignUpPage">main.controller.handlers.person.SignUpPageHandler</entry>
+ <entry key="doSignUp">main.controller.handlers.person.SignUpHandler</entry>
+ <entry key="showUpdateUserPage">main.controller.handlers.person.UpdateUserPageHandler</entry>
+ <entry key="doUpdateUser">main.controller.handlers.person.UpdateUserHandler</entry>
+ <entry key="showDeleteUserPage">main.controller.handlers.person.DeleteUserPageHandler</entry>
+ <entry key="doDeleteUser">main.controller.handlers.person.DeleteUserHandler</entry>
+ <entry key="showLogInPage">main.controller.handlers.person.LogInPageHandler</entry>
+ <entry key="doLogIn">main.controller.handlers.person.LogInHandler</entry>
+ <entry key="doLogOut">main.controller.handlers.person.LogOutHandler</entry>
+ <entry key="showCheckPasswordPage">main.controller.handlers.person.CheckPasswordPageHandler</entry>
+ <entry key="doCheckPassword">main.controller.handlers.person.CheckPasswordHandler</entry>
+
+<!-- PRODUCT handlers -->
+ <entry key="showProductOverviewPage">main.controller.handlers.product.ProductOverviewPageHandler</entry>
+ <entry key="showAddProductPage">main.controller.handlers.product.AddProductPageHandler</entry>
+ <entry key="doAddProduct">main.controller.handlers.product.AddProductHandler</entry>
+ <entry key="showUpdateProductPage">main.controller.handlers.product.UpdateProductPageHandler</entry>
+ <entry key="doUpdateProduct">main.controller.handlers.product.UpdateProductHandler</entry>
+ <entry key="showDeleteProductPage">main.controller.handlers.product.DeleteProductPageHandler</entry>
+ <entry key="doDeleteProduct">main.controller.handlers.product.DeleteProductHandler</entry>
+
+</properties>
